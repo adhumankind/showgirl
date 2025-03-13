@@ -1,0 +1,6 @@
+{
+    "api_url": "https://api.317ak.com/API/tp/mntp.php",
+    "timeout": 10,
+    "frequency_limit": 6,
+    "enable_nlu": true
+} 
