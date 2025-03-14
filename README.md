@@ -22,7 +22,6 @@
 
 | 参数 | 类型 | 默认值 | 说明 |
 | --- | --- | --- | --- |
-| api_url | string | https://api.317ak.com/API/tp/mntp.php | 图片API地址 |
 | timeout | number | 10 | API请求超时时间(秒) |
 | frequency_limit | number | 6 | 用户请求频率限制(秒) |
 | enable_nlu | boolean | true | 是否启用语义触发 |
@@ -43,20 +42,4 @@
 ## 注意事项
 
 - 本插件仅转发第三方API，不存储任何图片
-- 使用的API来源：https://api.317ak.com/?action=doc&id=52
 - 图片内容仅供个人娱乐使用
-- 微信仅支持HTTPS图片链接
-- 图片格式需为PNG、JPG或JPEG
-
-## 调试建议
-
-如果遇到图片未显示的问题，请检查：
-
-1. 日志中的`[ShowGirl] API响应URL`是否能在浏览器中正常打开
-2. URL是否使用HTTPS协议（非HTTPS链接会被拒绝）
-3. 图片格式是否为PNG、JPG或JPEG
-4. 微信服务器能否访问该URL（公网可访问）
-
-## 日志
-
-错误日志保存在 `logs/showgirl_error.log` 文件中。 
